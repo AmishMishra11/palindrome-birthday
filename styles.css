@@ -1,6 +1,7 @@
 :root {
   --primary: #fbcfe8;
   --secondary: #1f2937;
+  --blue: #0a1227;
 }
 body {
   background-color: var(--secondary);
@@ -15,12 +16,12 @@ input {
 button {
   color: var(--primary);
   font-weight: bold;
-  background: transparent;
+  /* background: transparent; */
   border-radius: 0.2rem;
   padding: 0.3rem;
   display: block;
   margin: auto;
-  background-color: var(--secondary);
+  background-color: var(--blue);
 }
 .container {
   border-radius: 1.5rem;
