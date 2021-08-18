@@ -1,0 +1,32 @@
+:root {
+  --primary: #fbcfe8;
+  --secondary: #1f2937;
+}
+body {
+  background-color: var(--secondary);
+  margin-top: 2rem;
+}
+input {
+  padding: 0.5rem;
+  display: block;
+  margin: auto;
+  margin-bottom: 0.3rem;
+}
+button {
+  color: var(--primary);
+  font-weight: bold;
+  background: transparent;
+  border-radius: 0.2rem;
+  padding: 0.3rem;
+  display: block;
+  margin: auto;
+  background-color: var(--secondary);
+}
+.container {
+  border-radius: 1.5rem;
+  padding: 2rem;
+  text-align: center;
+  width: 40%;
+  margin: auto;
+  background-color: var(--primary);
+}
