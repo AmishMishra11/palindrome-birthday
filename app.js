@@ -148,6 +148,8 @@ function eventHandler() {
         count +
         " days";
     }
+  } else {
+    messageRef.innerText = "Please select a date";
   }
 }
 
